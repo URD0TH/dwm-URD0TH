@@ -39,9 +39,9 @@ static const char *const autostart[] = {
     "flameshot", NULL,
     "dunst", NULL,
     "picom", "-b", NULL,
+    "deskflow", "&", NULL,
+    "parcelitte", "&", NULL,
     "sh", "-c", "feh --randomize --bg-fill ~/Pictures/backgrounds/*", NULL,
-    "deskflow", NULL,
-    "parcelitte", NULL,
     NULL /* terminate */
 };
 
