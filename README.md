@@ -112,8 +112,8 @@ This guide assumes your system has the latest updates before going ahead with th
 Clone the repository, then compile and install.
 
 ```sh
-git clone https://github.com/ChrisTitusTech/dwm-titus.git && \
-cd dwm-titus && \
+git clone https://github.com/URD0TH/dwm-URD0TH.git && \
+cd dwm-URD0TH && \
 make  && \
 sudo make install
 ```
