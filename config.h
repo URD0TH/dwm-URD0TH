@@ -40,8 +40,8 @@ static const char *const autostart[] = {
     "dunst", NULL,
     "picom", "-b", NULL,
     "sh", "-c", "feh --randomize --bg-fill ~/Pictures/backgrounds/*", NULL,
-    "synergy", NULL,
-    "slstatus", NULL,
+    "deskflow", NULL,
+    "parcelitte", NULL,
     NULL /* terminate */
 };
 
