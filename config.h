@@ -39,9 +39,10 @@ static const char *const autostart[] = {
     "flameshot", NULL,
     "dunst", NULL,
     "picom", "-b", NULL,
-    "deskflow", "&", NULL,
-    "parcelitte", "&", NULL,
+    "/home/bnds/.deskflow/bin/deskflow", NULL,
+    "parcellite", NULL,
     "sh", "-c", "feh --randomize --bg-fill ~/Pictures/backgrounds/*", NULL,
+    "slstatus", NULL,
     NULL /* terminate */
 };
 
@@ -61,6 +62,8 @@ static const Rule rules[] = {
     { "lutris",             NULL,     NULL,           0,         1,          0,          0,         0 },
     { "steam_app_default",  NULL,     NULL,           0,         1,          0,          0,         0 },
     { "thunar",             NULL,     NULL,           0,         1,          0,          0,         0 },
+    { "parcellite",         NULL,     NULL,           0,         1,          0,          0,         0 },
+    { "deskflow",           NULL,     NULL,           0,         0,          0,          0,         0 },
     { NULL,                 NULL,     "Event Tester", 0,         0,          0,          1,        -1 }, /* xev */
 };
 
